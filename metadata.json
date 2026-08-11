@@ -1,0 +1,6 @@
+{
+  "name": "CyberEmpireX",
+  "description": "Mobile-First Ethical Hacking & Termux Mastery Platform with Interactive Shell, Courses, Tool Matrix & AI Assistant",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

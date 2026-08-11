@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "users": {
+      "title": "User Profiles",
+      "description": "User account profiles and roles",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "emailVerified": { "type": "boolean" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "country": { "type": "string" },
+        "role": { "type": "string" },
+        "accountStatus": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "coreTeamApplications": {
+      "title": "Core Team Applications",
+      "description": "Applications submitted for CyberEmpireX Core Team roles",
+      "type": "object",
+      "properties": {
+        "applicationId": { "type": "string" },
+        "userId": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "emailVerified": { "type": "boolean" },
+        "country": { "type": "string" },
+        "ageConfirmation": { "type": "boolean" },
+        "cyberEmpireXUsername": { "type": "string" },
+        "githubUsername": { "type": "string" },
+        "portfolio": { "type": "string" },
+        "experienceLevel": { "type": "string" },
+        "availability": { "type": "string" },
+        "assessmentAnswers": { "type": "object" },
+        "roleScores": { "type": "object" },
+        "recommendedRole": { "type": "string" },
+        "selectedRole": { "type": "string" },
+        "agreementAccepted": { "type": "boolean" },
+        "agreementTimestamp": { "type": "string" },
+        "applicationStatus": { "type": "string" },
+        "submittedAt": { "type": "string" }
+      },
+      "required": ["applicationId", "userId", "email", "selectedRole", "agreementAccepted"]
+    }
+  }
+}
